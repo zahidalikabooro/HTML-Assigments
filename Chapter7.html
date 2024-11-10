@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+</head>
+<body>
+    <h1>Chapter # 7 - Forms </h1>
+    <form action="submit.php"></form>
+    
+        <fieldset>
+            <legend>Your <details></details></legend>
+        <label for = "name">Name</label>
+        <input type="text" placeholder="Enter Name">
+
+    
+    <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter Email">
+    </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Your Review</legend>
+            <label for="source">How did you hear about us?</label>
+            <select id="source" name="source">
+                <option value="Google">Google</option>
+                <option value="Friends">Friends</option>
+                <option value="Social media">Social media</option>
+            </select> <br> <br>
+            <p>would you visit again ?</p>
+            <input type="radio" id="yes" name="visit_again" value="yes">
+            <label for = "yes">yes</label> <br>
+            <input type="radio" id="no" name="visit_again" value="no">
+            <label for="no">No</label> <br>
+            <input type="radio" id="maybe" name="visit_again" value="maybe">
+            <label for="maybe">Maybe</label> <br> <br>
+            <div>
+                <label for ="comments">Comments</label>
+                <textarea id = "comments" placeholder="Enter your comments" rows="4" cols="50"></textarea>
+            </div>
+            <label for="email-updates">sign me up for email email-updates</label> <br> <br>
+            <button type="submit">Submit_Review</button>
+        </fieldset>
+    </div>
+    
+</body>
+</html>
